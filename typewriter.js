@@ -3,7 +3,7 @@ const sentence = "hello there from lighthouse labs";
 const delay = sentence => {
   let timePer = 50; 
   let index = 0;
-  const printLetter = nextLetter => { 
+  const printLetter = () => { 
     if (index < sentence.length) {
       process.stdout.write(sentence[index]); 
     } else {
